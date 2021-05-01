@@ -1,5 +1,5 @@
 ---
-- hosts: dev
+- hosts: 10.0.0.5
   become: True
   tasks:
     - name: Install python and pip

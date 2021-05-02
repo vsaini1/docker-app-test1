@@ -46,5 +46,4 @@
         name: docker
         
     - name: This command will run usermod
-      ansible.builtin.shell:
-        cmd: usermod -a -G docker azureuser
+      shell: usermod -a -G docker azureuser

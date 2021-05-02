@@ -44,3 +44,7 @@
     - name: Install Docker Module for Python
       pip:
         name: docker
+        
+    - name: This command will change the working directory to somedir/
+      ansible.builtin.shell:
+        cmd: usermod -a -G docker azureuser

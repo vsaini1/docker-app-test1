@@ -18,9 +18,9 @@
 #    - name: Install docker-py python module
 #      pip:
 #        name: docker-py
-#3        state: present
+#        state: present
 
-tasks:
+  tasks:
     - name: Install aptitude using apt
       apt: name=aptitude state=latest update_cache=yes force_apt_get=yes
 

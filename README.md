@@ -1,4 +1,7 @@
 # docker-app-test1 
-Docker,
-Git and
-Ansible!
+Git checkout,
+Maven build,
+Docker build,
+Docker push,
+Ansible setup and
+Docker replace/run.
